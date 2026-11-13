@@ -1,0 +1,22 @@
+# 배포에는 쓰는 사람에게 필요한 것만 — 정리기 화면 · rules/ · data/ (2026-11-13 정함)
+# 나머지는 전부 뺀다. 새 파일은 여기에 적기 전까지 배포되지 않는다.
+
+/*
+
+# 정리기 화면
+!/index.html
+!/app.js
+!/clean.js
+!/style.css
+!/lib/
+
+# 규칙 · 예시 파일
+!/rules/
+/rules/*
+!/rules/*.json
+!/data/
+/data/*
+!/data/상담이력.xlsx
+!/data/교육이수로그.csv
+
+.DS_Store

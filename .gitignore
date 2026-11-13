@@ -1,0 +1,40 @@
+# 공개 저장소에 올리는 것만 다시 넣는다 — 나머지는 전부 뺀다 (2026-11-13 정함)
+#   올린다          정리기 화면 · rules/ · data/ · README · 정리/ 의 정리 스크립트(코드만)
+#   어디에도 안 올린다  tools/answer/ 의 정답 · 정리본/ · 진단/ · 그 밖의 csv · xlsx
+# 새 파일은 여기에 적기 전까지 저장소에 들어가지 않는다.
+
+/*
+
+# 정리기 화면
+!/index.html
+!/app.js
+!/clean.js
+!/style.css
+!/lib/
+
+# 규칙 · 예시 파일
+!/rules/
+/rules/*
+!/rules/*.json
+!/data/
+/data/*
+!/data/상담이력.xlsx
+!/data/교육이수로그.csv
+
+# 설명 · 정리 스크립트(코드만)
+!/README.md
+!/정리/
+/정리/*
+!/정리/*.py
+
+# 이 두 파일
+!/.gitignore
+!/.vercelignore
+
+# 어디서든 빼는 것
+.DS_Store
+__pycache__/
+.env
+.env.*
+.vercel/
+node_modules/

@@ -8,13 +8,13 @@
 !/app.js
 !/clean.js
 !/style.css
-!/lib/
+!/lib
 
-# 규칙 · 예시 파일
-!/rules/
+# 규칙 · 예시 파일 — 폴더 이름 끝에 / 를 붙이지 않는다 (Vercel 은 폴더를 «lib» 처럼 / 없이 판정해서, «!/lib/» 로는 다시 넣어지지 않는다)
+!/rules
 /rules/*
 !/rules/*.json
-!/data/
+!/data
 /data/*
 !/data/상담이력.xlsx
 !/data/교육이수로그.csv
